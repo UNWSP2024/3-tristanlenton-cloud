@@ -14,6 +14,8 @@ if topping == "yes":
         priceOfTopping = 1
     else :
         priceOfTopping = 0
+else:
+    priceOfTopping = 0
 print("Hot dog cost: $", priceOfDog)
 print("Tax: $", (priceOfDog + priceOfTopping)*.07)
 print("Total price: $", (priceOfDog + priceOfTopping)*1.07)
